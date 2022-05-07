@@ -14,7 +14,6 @@ class Main{
             System.out.println("odd");
         else
             System.out.println("Neutral");
-
     }
 }
 

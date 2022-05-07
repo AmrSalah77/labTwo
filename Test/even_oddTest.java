@@ -34,23 +34,23 @@ class even_oddTest {
     @Nested
     public class oddTest{
         @Test
-        void One_ExpectedEven() {
+        void One_ExpectedOdd() {
             assertEquals(1,test.checkEven_or_odd(1));
         }
         @Test
-        void fourThousandSixHundredFortyNine_ExpectedEven() {
+        void fourThousandSixHundredFortyNine_ExpectedOdd() {
             assertEquals(1,test.checkEven_or_odd(4649));
         }
         @Test
-        void fiveHundredFortySeven_ExpectedEven() {
+        void fiveHundredFortySeven_ExpectedOdd() {
             assertEquals(1,test.checkEven_or_odd(547));
         }
         @Test
-        void negativeOne_ExpectedEven() {
+        void negativeOne_ExpectedOdd() {
             assertEquals(1,test.checkEven_or_odd(-1));
         }
         @Test
-        void NegativeFiveThousandSixHundredEightyThree_ExpectedEven() {
+        void NegativeFiveThousandSixHundredEightyThree_ExpectedOdd() {
             assertEquals(1,test.checkEven_or_odd(-5683));
         }
     }
